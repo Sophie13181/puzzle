@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  gap: 20px;
+  padding: 20px;
+}
+
+.info, .description {
+  background-color: #ffffff;
+  padding: 70px;
+  border-radius: 50x;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.flex-puzzle {
+  display: strong;
+  flex-wrap: wrap;
+  max-width:500px;
+  margin: auto;
+  gap: 30px;
+}
+
+.flex-puzzle img {
+  width: 50%; /* 4 колонки */
+  height: auto;
+  object-fit: cover;
+  margin: 20px;
+  padding: 30px;
+}
+
+.hidden {
+  display: none;
+}
